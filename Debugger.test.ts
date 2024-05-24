@@ -10,7 +10,7 @@ class CElement {
 		this.publicSet = publicSet;
 
 		// `this` gonna be a TypeError on the Debugger after this assignment
-		this.#privateSet = publicSet;
+		this.#privateSet = privateSet;
 	}
 }
 
